@@ -43,7 +43,9 @@
 
     "sonata-project/admin-bundle": "~2.4@dev",
     "sonata-project/user-bundle": "~2.3@dev",
-    "sonata-project/doctrine-orm-admin-bundle": "~2.4@dev"
+    "sonata-project/doctrine-orm-admin-bundle": "~2.4@dev",
+
+    "stnw/date-picker-bundle": "dev-master"
 
   },
   "autoload": {
