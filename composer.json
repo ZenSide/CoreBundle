@@ -53,6 +53,5 @@
   "autoload": {
     "psr-0": { "ZenSide\\BlogBundle":"" }
   },
-  "target-dir ": "ZenSide/CoreBundle",
-  "minimum-stability": "dev"
+  "target-dir ": "ZenSide/CoreBundle"
 }
