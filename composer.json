@@ -4,7 +4,6 @@
   "description": "Bundle with pre-configured full-stack modules (sonata,fos,rest)",
   "keywords": [],
   "license": "GPL-3.0+",
-  "target-dir ": "ZenSide/CoreBundle",
   "authors": [
     {
       "name": "ZenSide - Nicolas Janel",
@@ -51,5 +50,6 @@
   "autoload": {
     "psr-0": { "ZenSide\\BlogBundle":"" }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "target-dir ": "ZenSide/CoreBundle"
 }

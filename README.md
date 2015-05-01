@@ -9,7 +9,11 @@ A pre-configured Symfony2 bundle to start project with usefull bundles pre-confi
 
 Installation with composer
 ------------
-require "zenside/core-bundle": "dev-master"
+    require "zenside/core-bundle": "dev-master"
+
+Carefull, the minimum stability version is "dev", so be aware to define it in the composer.json of your project :
+
+    "minimum-stability": "dev",
 
 Symfony 2 configuration
 ------------
