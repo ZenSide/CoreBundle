@@ -4,6 +4,7 @@
   "description": "Bundle with pre-configured full-stack modules (sonata,fos,rest)",
   "keywords": [],
   "license": "GPL-3.0+",
+  "target-dir ": "ZenSide/CoreBundle",
   "authors": [
     {
       "name": "ZenSide - Nicolas Janel",
@@ -36,21 +37,17 @@
 
     "friendsofsymfony/user-bundle": "v1.3.4",
 
-    "sonata-project/core-bundle": "dev-master",
-    "sonata-project/datagrid-bundle": "dev-master",
-    "sonata-project/user-bundle": "dev-master",
-    "sonata-project/block-bundle": "dev-master",
-    "sonata-project/admin-bundle": "dev-master",
-    "sonata-project/easy-extends-bundle": "dev-master",
-    "sonata-project/doctrine-orm-admin-bundle": "dev-master",
-
     "friendsofsymfony/jsrouting-bundle": "1.x-dev",
     "friendsofsymfony/rest-bundle": "~1.5",
-    "jms/serializer-bundle": "0.13.*"
+    "jms/serializer-bundle": "0.13.*",
+
+    "sonata-project/admin-bundle": "~2.4@dev",
+    "sonata-project/user-bundle": "~2.3@dev",
+    "sonata-project/doctrine-orm-admin-bundle": "~2.4@dev"
+
   },
   "autoload": {
     "psr-0": { "ZenSide\\BlogBundle":"" }
   },
-  "target-dir ": "ZenSide/CoreBundle",
   "minimum-stability": "dev"
 }
