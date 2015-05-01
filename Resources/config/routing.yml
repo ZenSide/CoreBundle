@@ -1,0 +1,15 @@
+# JS ROUTING
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+routing_admin:
+    resource: "routing_admin.yml"
+    prefix:   /
+
+#HOMEPAGE
+homepage:
+    path:     /
+    defaults:
+            _controller: FrameworkBundle:Redirect:urlRedirect
+            path: /admin
+            permanent: true
