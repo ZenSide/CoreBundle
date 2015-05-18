@@ -1,0 +1,25 @@
+# FOS User Bundle
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: ZenSide\CoreBundle\Entity\User
+    group:
+        group_class: ZenSide\CoreBundle\Entity\Group
+    from_email:
+        address: foo@bar.com
+        sender_name: Foo Bar
+
+# SONATA User Bundle
+sonata_user:
+    security_acl: false
+    manager_type: orm
+    class:
+        user: ZenSide\CoreBundle\Entity\User
+        group: ZenSide\CoreBundle\Entity\Group
+    impersonating:
+        route: homepage
+    admin:
+        user:
+            class: ZenSide\CoreBundle\Admin\UserAdmin
+            controller: SonataAdminBundle:CRUD
+            translation: SonataUserBundle
