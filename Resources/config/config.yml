@@ -84,7 +84,7 @@ doctrine:
         auto_mapping: true
 
 fos_rest:
-    param_fetcher_listener: true
+#    param_fetcher_listener: true
     body_listener:
         array_normalizer: fos_rest.normalizer.camel_keys
     format_listener: true
