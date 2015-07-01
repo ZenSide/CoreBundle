@@ -34,7 +34,7 @@
     "incenteev/composer-parameter-handler": "~2.0",
     "nervo/yuicompressor": "2.4.8",
 
-    "friendsofsymfony/user-bundle": "v1.3.4",
+    "friendsofsymfony/user-bundle": "v1.3.6",
 
     "friendsofsymfony/jsrouting-bundle": "1.x-dev",
     "friendsofsymfony/rest-bundle": "~1.5",
