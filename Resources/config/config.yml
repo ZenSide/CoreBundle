@@ -1,6 +1,5 @@
 imports:
     - { resource: admin.yml }
-    - { resource: security.yml }
 
 framework:
     translator:      ~
